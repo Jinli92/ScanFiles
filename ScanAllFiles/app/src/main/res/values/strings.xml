@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ScanAllFiles</string>
+    <string name="start">Start Scan</string>
+    <string name="stop">Stop</string>
+    <string name="file_scanner">File Scanner</string>
+    <string name="example">example</string>
+    <string name="frequency_extensions">Frequent File Extensions</string>
+    <string name="stop_btn">Stop</string>
+    <string name="scan_msg">Scanning...</string>
+</resources>

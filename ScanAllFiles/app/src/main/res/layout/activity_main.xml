@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jinliyu.scanallfiles.MainActivity">
+
+    <TextView
+        android:id="@+id/file_scan_tv"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/normal_size"
+        android:layout_height="wrap_content"
+        android:text="@string/file_scanner"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/start_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fre_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/normal_size"
+        android:paddingEnd="@dimen/normal_size"
+        android:text="@string/frequency_extensions"/>
+
+
+    <ListView
+        android:id="@+id/result_lv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>
+
+
+
